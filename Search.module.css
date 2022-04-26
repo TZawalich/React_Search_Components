@@ -1,0 +1,25 @@
+.searchHolder {
+    border: 4px solid #000;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 24px auto;
+    overflow: hidden;
+}
+
+.searchData {
+    background-color: #CFCFFD;
+}
+
+.searchData ul {
+    padding: 12px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.searchData li {
+    display: inline;
+    width: 200px;
+}
